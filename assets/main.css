@@ -1,0 +1,39 @@
+body {
+    background-color: #121212; /* A dark gray that is softer than black */
+}
+
+
+#terminal {
+    background-color: black;
+    color: #34D399; /* Adjust to your preferred terminal text color */
+    font-family: 'Courier New', monospace;
+    padding: 1rem;
+    max-width: 800px; /* or 100% for full width */
+    margin: 1rem auto;
+    border: none; /* or style as desired */
+}
+
+#output {
+    white-space: pre; /* Preserves formatting for text output */
+}
+
+#input-line {
+    display: flex;
+    align-items: center; /* Vertically centers the input with the prompt */
+}
+
+#input-line span {
+    margin-right: 0.5rem;
+}
+
+#terminal-input {
+    background-color: black;
+    color: #34D399;
+    border: none;
+    padding: 0.25rem 0.5rem;
+    flex-grow: 1;
+}
+
+#terminal-input:focus {
+    outline: none;
+}
